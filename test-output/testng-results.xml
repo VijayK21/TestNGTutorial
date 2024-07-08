@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-03T22:33:54 IST" name="Suite" finished-at="2024-06-03T22:33:54 IST" duration-ms="96">
+    <groups>
+      <group name="Smoke">
+        <method signature="basic2.test1()[pri:0, instance:part1.basic2@2a65fe7c]" name="test1" class="part1.basic2"/>
+        <method signature="basics.name()[pri:0, instance:part1.basics@799f10e1]" name="name" class="part1.basics"/>
+        <method signature="basics3.clg()[pri:0, instance:part1.basics3@662ac478]" name="clg" class="part1.basics3"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2024-06-03T22:33:54 IST" name="info" finished-at="2024-06-03T22:33:54 IST" duration-ms="67">
+      <class name="part1.basics3">
+        <test-method is-config="true" signature="beforesuite()[pri:0, instance:part1.basics3@662ac478]" started-at="2024-06-03T22:33:54 IST" name="beforesuite" finished-at="2024-06-03T22:33:54 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuite -->
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:part1.basics3@662ac478]" started-at="2024-06-03T22:33:54 IST" name="beforetest" finished-at="2024-06-03T22:33:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="clg()[pri:0, instance:part1.basics3@662ac478]" started-at="2024-06-03T22:33:54 IST" name="clg" finished-at="2024-06-03T22:33:54 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clg -->
+        <test-method signature="school()[pri:0, instance:part1.basics3@662ac478]" started-at="2024-06-03T22:33:54 IST" name="school" finished-at="2024-06-03T22:33:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- school -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:part1.basics3@662ac478]" started-at="2024-06-03T22:33:54 IST" name="aftertest" finished-at="2024-06-03T22:33:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method is-config="true" signature="aftersuite()[pri:0, instance:part1.basics3@662ac478]" started-at="2024-06-03T22:33:54 IST" name="aftersuite" finished-at="2024-06-03T22:33:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftersuite -->
+      </class> <!-- part1.basics3 -->
+    </test> <!-- info -->
+    <test started-at="2024-06-03T22:33:54 IST" name="Test" finished-at="2024-06-03T22:33:54 IST" duration-ms="96">
+      <class name="part1.basic2">
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:part1.basic2@2a65fe7c]" started-at="2024-06-03T22:33:54 IST" name="beforemethod" finished-at="2024-06-03T22:33:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="test1()[pri:0, instance:part1.basic2@2a65fe7c]" started-at="2024-06-03T22:33:54 IST" name="test1" finished-at="2024-06-03T22:33:54 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:part1.basic2@2a65fe7c]" started-at="2024-06-03T22:33:54 IST" name="aftermethod" finished-at="2024-06-03T22:33:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:part1.basic2@2a65fe7c]" started-at="2024-06-03T22:33:54 IST" name="beforemethod" finished-at="2024-06-03T22:33:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="test2(java.lang.String)[pri:0, instance:part1.basic2@2a65fe7c]" started-at="2024-06-03T22:33:54 IST" name="test2" finished-at="2024-06-03T22:33:54 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[suitlvlurl.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:part1.basic2@2a65fe7c]" started-at="2024-06-03T22:33:54 IST" name="aftermethod" finished-at="2024-06-03T22:33:54 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+      </class> <!-- part1.basic2 -->
+      <class name="part1.basics">
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:part1.basics@799f10e1]" started-at="2024-06-03T22:33:54 IST" name="beforeclass" finished-at="2024-06-03T22:33:54 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method signature="demo()[pri:0, instance:part1.basics@799f10e1]" started-at="2024-06-03T22:33:54 IST" name="demo" finished-at="2024-06-03T22:33:54 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+        <test-method signature="name()[pri:0, instance:part1.basics@799f10e1]" started-at="2024-06-03T22:33:54 IST" name="name" finished-at="2024-06-03T22:33:54 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- name -->
+        <test-method signature="age()[pri:0, instance:part1.basics@799f10e1]" started-at="2024-06-03T22:33:54 IST" name="age" finished-at="2024-06-03T22:33:54 IST" depends-on-methods="part1.basics.name, part1.basics.demo" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- age -->
+      </class> <!-- part1.basics -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
