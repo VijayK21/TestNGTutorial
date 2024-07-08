@@ -7,7 +7,7 @@ import org.testng.ITestResult;
 public class Listener implements ITestListener {
 	 @Override
 	    public void onTestStart(ITestResult result) {
-	        System.out.println("Test started: " + result.getName());
+	        System.out.println("Test startedd: " + result.getName());
 	    }
 
 	    @Override
